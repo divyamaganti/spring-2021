@@ -27,5 +27,5 @@ def test_body(client):
 
 def test_reverse(client):
     response = client.get('/reverse?word=buffalo')
-    assert b'laffub' in response.data
+    assert b'xlaffub' in response.data
 
