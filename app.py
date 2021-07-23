@@ -29,6 +29,8 @@ def reverse():
     word = request.args.get('word')
     # slicing
     new_word = word[::-1]
+    # buffalo
+    # word[::2]
     return new_word
 
 
